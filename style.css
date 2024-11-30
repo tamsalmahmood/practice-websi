@@ -1,0 +1,77 @@
+/* Apply a full-screen background image */
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('./bgimag.jpg'); /* Correct the background image path */
+    background-size: cover; /* Ensures the image covers the entire page */
+    background-position: center; /* Centers the background image */
+    height: 100vh; /* Ensures the body takes the full height of the viewport */
+    display: flex; /* Enables flexbox for centering */
+    justify-content: center; /* Horizontally centers the container */
+    align-items: center; /* Vertically centers the container */
+}
+
+/* Styling for the container */
+.container {
+    text-align: center;
+    color: black; /* Ensures the text is readable on a dark background */
+    font-size: 2em; /* Adjusts the font size */
+}
+
+.para {
+    font-size: 0.5em;
+}
+.form-container {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: rgba(184, 153, 153, 0.7); /* Semi-transparent background for the form */
+    border-radius: 5px;
+}
+
+.form-container h3 {
+    margin-bottom: 10px;
+    font-size: 1.0em;
+}
+
+.form-container input {
+    width: 50%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f4f4f4;
+    font-size: 1em;
+}
+
+/* Button Styling */
+.btn {
+    display: inline-block;
+    padding: 15px 30px;
+    font-size: 0.7em;
+    text-decoration: none;
+    background-color: #3498db;
+    color: white;
+    border-radius: 5px;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #2980b9;
+}
+
+/* Back to Home Link */
+.back-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1em;
+    text-decoration: none;
+    background-color: #e74c3c;
+    color: white;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.back-btn:hover {
+    background-color: #c0392b;
+}
